@@ -1,9 +1,12 @@
 diff --git a/drivers/bluetooth/btusb.c b/drivers/bluetooth/btusb.c
 --- a/drivers/bluetooth/btusb.c
 +++ b/drivers/bluetooth/btusb.c
-@@ -600,3 +600,5 @@
+@@ -663,6 +663,8 @@
+ 						     BTUSB_WIDEBAND_SPEECH },
+
  	/* MediaTek MT7922 Bluetooth devices */
 +	{ USB_DEVICE(0x13d3, 0x3625), .driver_info = BTUSB_MEDIATEK |
 +						     BTUSB_WIDEBAND_SPEECH },
- 	{ USB_DEVICE(0x13d3, 0x3586), .driver_info = BTUSB_MEDIATEK |
+ 	{ USB_DEVICE(0x13d3, 0x3585), .driver_info = BTUSB_MEDIATEK |
  						     BTUSB_WIDEBAND_SPEECH },
+ 	{ USB_DEVICE(0x13d3, 0x3610), .driver_info = BTUSB_MEDIATEK |
